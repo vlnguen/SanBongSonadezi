@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+}
+
+
+h1{
+    font-family: Verdana, arial;
+}
+
+
+h2{
+    font-family: Verdana, arial;
+    
+}
+
+h3{
+    font-family: Verdana, arial;
+}
+
+h4{
+    font-family: Verdana, arial;
+}
+
+p{
+    font-family:  arial;
+    font-size: 1.1em;
+}
+
+a{
+    font-family: Verdana;
+    position: relative;
+}
+
+
+.header{
+    height: 100px;
+    background: rgb(218,227,255);
+    background: linear-gradient(90deg, rgba(218,227,255,1) 0%, rgba(110,128,203,1) 14%, rgba(87,87,164,1) 21%, rgba(0,0,93,1) 58%, rgba(55,9,121,1) 79%, rgba(84,9,72,1) 100%);
+}
+
+
+
+#textheader
+{
+
+   display: flex;
+   color: gray;
+   justify-content: end;
+   position: relative;
+   bottom: 39%;
+   right: 7%;
+   
+
+}
+
+#textheader a{
+    color: #b8b8b8;
+}
+
+
+#textheader h3{
+    padding-right: 80px;
+   
+    position: relative;
+}
+
+#textheader a::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    background: #ea6e30;
+    height: 3px;
+    width: 0;
+    left: 50%;
+    border-radius: 20px;
+    transition: 0.5s;
+  }
+  
+  #textheader a:hover {
+    color: white;
+  }
+
+
+  #textheader a:hover::after {
+    width: 100%;
+    left: 0%;
+  }
+
+
+
+
+
+
+
+
+.boxSDT
+{
+    
+    background-color: blue;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+    border-radius: 15px;
+}
+
+.boxSDT p{
+    color: white;
+}
+
+.boxSDT:hover{
+    background-color: red;
+
+}
+
+
+
+
+#Block
+{
+    margin-left: 23.5%;
+    margin-top: 50px;
+}
+
+#textmain{ 
+    margin-left: 25%;
+}
+
+
+
+
+
+
+.Block2{
+    margin-left: 28%;
+}
+
+
+.footer{
+    background: linear-gradient(to right,rgb(3, 13, 104),black);
+    height: 400px;
+    color: white;
+}
+
+.footer img{
+    margin-top: 40px;
+    margin-left: 45.3%;
+    border-radius: 10px;
+}
+
+.footer h2{
+    margin-left: 140px;
+    margin-top: 15px;
+}
+
+.footer p{
+    margin-left: 140px;
+    margin-top: 15px;  
+}
+
+#textfooter p{
+    margin-left: 140px;
+    margin-top: 15px;
+}
+
+.About{
+    margin-left: 36.5%;
+    position: relative;
+    bottom: 39.5%;
+}
+ 
+
+.map{
+    display: flex;
+    margin-left: 67%;
+    position: relative;
+    bottom: 103%;
+}
+
+
+.anhgiaidau i{
+    position: relative;
+    left: 22px;
+    top: 42px;
+}
+
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+  }
+
+
+
+
+
+
+
+
+  @media only screen and (max-width:46.1875em){
+
+  }
+
+
+  @media only screen and (min-width:46.25em) and (max-width:63.9375em){
+        .imgheader{
+            margin-left: 0%;
+        }
+  }
+
+
